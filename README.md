@@ -1,9 +1,9 @@
 # genpassword
-# Repositório de Senhas Simples: Uma Abordagem para Melhorar a Segurança Cibernética
+# Repositório de Senhas: Uma Abordagem para Melhorar a Segurança Cibernética
 
 ## Descrição
 
-Este repositório de senhas simples visa destacar a importância das senhas fortes na segurança cibernética, enquanto também reconhece a existência de opções simplificadas de gestão de senhas. O objetivo deste documento é fornecer insights sobre os desafios enfrentados pelos usuários ao criar senhas seguras e discutir a relevância de abordagens mais robustas para proteger dados pessoais e empresariais.
+Este repositório de senhas Seguras visa destacar a importância das senhas fortes na segurança cibernética, enquanto também reconhece a existência de opções simplificadas de gestão de senhas. O objetivo deste documento é fornecer insights sobre os desafios enfrentados pelos usuários ao criar senhas seguras e discutir a relevância de abordagens mais robustas para proteger dados pessoais e empresariais.
 
 ## Problema
 
