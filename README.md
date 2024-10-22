@@ -1,25 +1,43 @@
-# genpassword
-# Repositório de Senhas: Uma Abordagem para Melhorar a Segurança Cibernética
+# CrypticGuard
 
-## Descrição
+**CrypticGuard** é um aplicativo simples para gerar senhas seguras de maneira rápida. Com uma interface amigável criada com Tkinter, ele permite a criação de senhas aleatórias e, futuramente, incluirá funcionalidades adicionais para personalizar suas senhas.
 
-Este repositório de senhas Seguras visa destacar a importância das senhas fortes na segurança cibernética, enquanto também reconhece a existência de opções simplificadas de gestão de senhas. O objetivo deste documento é fornecer insights sobre os desafios enfrentados pelos usuários ao criar senhas seguras e discutir a relevância de abordagens mais robustas para proteger dados pessoais e empresariais.
+## Funcionalidades
 
-## Problema
+- **Geração de Senha Aleatória**: Crie senhas aleatórias seguras com apenas um clique.
+- **Futuras Funcionalidades**:
+  - **Recomendação de Senha**: Implementaremos um algoritmo para sugerir senhas seguras.
+  - **Senha Personalizada**: Possibilidade de customizar sua senha com base em critérios definidos pelo usuário (tamanho, tipos de caracteres, etc.).
 
-A fragilidade das senhas simples representa uma séria vulnerabilidade na segurança cibernética. Muitos usuários continuam a adotar senhas fáceis de lembrar, que são suscetíveis a ataques de força bruta ou de dicionário, comprometendo assim a segurança de suas contas digitais.
+## Como usar
 
-## Solução
+1. Clone este repositório para o seu computador:
 
-A solução para mitigar esses riscos é incentivar a criação e o uso de senhas fortes e exclusivas para cada conta digital. Embora existam repositórios de senhas que ofereçam opções simplificadas para gerenciamento de senhas, é crucial que os usuários estejam cientes dos perigos potenciais e adotem medidas proativas para fortalecer sua segurança cibernética.
+    ```bash
+    git clone https://github.com/seuusuario/crypticguard.git
+    ```
 
-## Como Contribuir
+2. Instale o Python (caso ainda não tenha) e rode o aplicativo com o seguinte comando:
 
-Se você estiver interessado em contribuir para a conscientização sobre a importância das senhas fortes na segurança cibernética, sinta-se à vontade para compartilhar este documento com colegas, amigos e comunidades online. Além disso, considere fornecer feedback e sugestões para aprimorar este repositório e torná-lo uma fonte ainda mais valiosa de informações sobre segurança cibernética.
+    ```bash
+    python crypticguard.py
+    ```
 
-## Conclusão
+3. Na interface do aplicativo, clique em **Aleatoria** para gerar uma senha aleatória.
 
-A segurança cibernética é uma responsabilidade compartilhada entre usuários e provedores de serviços. Ao promover a adoção de práticas de segurança sólidas e educar os usuários sobre os riscos associados às senhas simples, podemos criar um ambiente digital mais seguro para todos.
+## Requisitos
 
----
-Este documento foi criado com o intuito de fornecer informações e promover discussões sobre segurança cibernética. Se você tiver alguma dúvida ou sugestão, não hesite em entrar em contato. Obrigado por contribuir para um mundo digital mais seguro!
+- **Python 3.x**
+- **Tkinter** (já incluído no Python por padrão)
+
+## Interface
+
+A interface gráfica foi projetada para ser simples e intuitiva, com três botões principais:
+
+- **Aleatoria**: Gera uma senha aleatória de 12 caracteres.
+- **Personalizada**: (Em breve) Permite que o usuário crie uma senha personalizada.
+
+## Captura de Tela
+
+![CrypticGuard Screenshot](link-para-imagem.png)
+
