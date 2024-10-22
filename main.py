@@ -10,8 +10,6 @@ def senhaaleatoria(number = 1, length = 12):
             for c in range(length):
                 password += random.choice(chars)
         resultadobotao.config(text=password)
-def senhamyalgoritmo():
-    resultadobotao.config(text="Em Breve")
 
 def senhapersonalizada():
     resultadobotao.config(text="Em Breve")
@@ -27,10 +25,6 @@ texto_inicial.pack(side="top", pady=0)
 botao_opcao1 = tk.Button(root, text="Aleatoria", command=senhaaleatoria, font=("Arial", 12),
                           fg="#1C646D", bg="#1C646D", activeforeground="#CEF09D", background="#1F0802",)
 botao_opcao1.pack(side="top", pady=5)  # Posicionado no topo com um pequeno espaço entre os botões
-
-botao_opcao2 = tk.Button(root, text="Recomendação", command=senhamyalgoritmo, font=("Arial", 12),
-                          fg="#1C646D", bg="#1C646D", activeforeground="#CEF09D", background="#1F0802",)
-botao_opcao2.pack(side="top", pady=5)  # Posicionado abaixo do botão da Opção 1
 
 botao_opcao3 = tk.Button(root, text="Personalizada", command=senhapersonalizada,font=("Arial", 12),
                           fg="#1C646D", bg="#1C646D", activeforeground="#CEF09D", background="#1F0802",)
