@@ -37,7 +37,5 @@ A interface gráfica foi projetada para ser simples e intuitiva, com três botõ
 - **Aleatoria**: Gera uma senha aleatória de 12 caracteres.
 - **Personalizada**: (Em breve) Permite que o usuário crie uma senha personalizada.
 
-## Captura de Tela
 
-![CrypticGuard Screenshot](link-para-imagem.png)
 
