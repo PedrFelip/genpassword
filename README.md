@@ -20,7 +20,7 @@
 2. Instale o Python (caso ainda não tenha) e rode o aplicativo com o seguinte comando:
 
     ```bash
-    python crypticguard.py
+    python main.py
     ```
 
 3. Na interface do aplicativo, clique em **Aleatoria** para gerar uma senha aleatória.
